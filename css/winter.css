@@ -1,13 +1,11 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
+    background-color:hsl(184, 19%, 54%);
 }
 
-body{
-    background-color: darkslategrey;
-}
 .container-fluid{
-   background-color: rgb(183,211,183); 
+    background-color: rgb(183, 211, 183);
 }
 
 .navbar-brand{
@@ -15,11 +13,7 @@ body{
 }
 
 h1{
-    font-size: 100px;
-    color: darkslateblue;
-
-}
-
-img1{
-    border-radius: 100%;
+    font-size: 70px;
+    color: rgb(91, 76, 175);
+    text-align: center;
 }
