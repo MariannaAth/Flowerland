@@ -1,8 +1,13 @@
-*{
-    background-color: darkslategrey;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: darkslategrey;
 }
 .container-fluid{
-    background-color: rgb(183,211,183);
+   background-color: rgb(183,211,183); 
 }
 
 .navbar-brand{
