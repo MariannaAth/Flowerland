@@ -1,0 +1,14 @@
+#bg-main{
+    background-color: #ffb151;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
