@@ -4,7 +4,7 @@
 }
 
 body{
-    color: darkslategrey;
+    background-color: darkslategrey;
 }
 .container-fluid{
    background-color: rgb(183,211,183); 
@@ -16,5 +16,6 @@ body{
 
 h1{
     font-size: 100px;
+    color: darkslateblue;
 
 }
