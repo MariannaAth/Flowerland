@@ -1,15 +1,16 @@
-#bg-main{
-    background-color: #ffb151;
-    height: 100vh;
+body{
+    background-color: #ffb151 !important;
+    /* height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 h1{
     font-size: 70px;
     color: rgb(255, 255, 255);
+    padding: 10px;
 }
 
 .carousel-item{
@@ -25,3 +26,6 @@ nav.navbar{
     background-color: palevioletred !important;
 }
     
+h3{
+    padding-top: 50px;
+}
