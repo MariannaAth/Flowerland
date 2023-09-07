@@ -35,13 +35,14 @@
     }
   
   
-  button{
+  #button{
     color:white;
     background-color: rgb(78, 33, 129);
-    height: 70px;
-    width: 150px;
+    height: 60px;
+    width: 135px;
     border-color: rgb(78, 33, 129);
     font-size: 30px;
+    align-items: center;
   }
   
 
@@ -56,9 +57,11 @@
   
   .pic{
     width: 600px;
-    height: 400px;
+    height: 550px;
     display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 5%;
+    padding: 2%;
   }
