@@ -8,8 +8,8 @@ body{
 }
 
 h1{
-    font-size: 70px;
-    color: #e85d04;
+    font-size: 70px; 
+    color: #e85d04 !important; 
     padding: 10px;
 }
 
@@ -28,4 +28,22 @@ nav.navbar{
     
 h3{
     padding-top: 50px;
+    color: #e85d04 !important; 
+    
+}
+
+.navbar-brand{
+    color: palevioletred !important
+}
+
+.accordion-body{
+    background-color: #fc8e4a;
+}
+
+.accordion-header{
+    background-color: #f15f04;
+}
+
+p{
+    color: #673113;
 }
