@@ -16,6 +16,12 @@ h1{
     height: 500px;
 }
 
-.navbar-brand {
-    color: palevioletred;
+
+.container-fluid{
+   background-color: palevioletred;
 }
+
+nav.navbar{
+    background-color: palevioletred !important;
+}
+    
