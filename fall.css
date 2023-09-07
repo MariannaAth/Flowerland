@@ -48,9 +48,17 @@ h3{
     background-color: #f15f04;
 }
 .accordion-button{
-    background-color: #f15f04;
+    background-color: #f15f04 !important;
 }
 
 p{
     color: #673113;
 }
+
+.accordion-button:focus{
+    border-color: #feb986;
+}
+
+.accordion-button:not(.collarsed) {
+    background-color: beige;
+} 
