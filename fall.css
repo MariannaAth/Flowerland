@@ -24,7 +24,7 @@ h1{
 
 nav.navbar{
     background-color: #bbded6 !important;
-}
+ }
     
 h3{
     padding-top: 50px;
@@ -36,11 +36,18 @@ h3{
     color: palevioletred !important
 }
 
+.accordion {
+    background-color: #673113;
+}
+
 .accordion-body{
     background-color: #fc8e4a;
 }
 
 .accordion-header{
+    background-color: #f15f04;
+}
+.accordion-button{
     background-color: #f15f04;
 }
 
