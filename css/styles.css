@@ -1,7 +1,30 @@
 .container-fluid {
-    background-color: rgb(183, 221, 183);
+    background-color: #bbded6;
 }
 
 .navbar-brand {
     color: palevioletred
 }
+
+body {
+    text-align: center;
+    background-color:#feffdf
+}
+ 
+h1 {
+    color: #fabfa2    
+}
+
+img {
+  width:300px;
+  height:200px;
+}
+
+.accordion-item {
+    background-color: #ffffff;
+}
+
+.accordion-button {
+    background-color: #feffdfaf;
+}
+

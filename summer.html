@@ -1,60 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Latest compiled and minified CSS -->
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-      />
-      <!-- Latest compiled JavaScript -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
 
-    
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Flowerland</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Flowerland</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Seasons
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Winter</a></li>
+                <li><a class="dropdown-item" href="#">Spring</a></li>
+                <li><a class="dropdown-item" href="#">Summer</a></li>
+                <li><a class="dropdown-item" href="#">Fall</a></li>
+                <li><hr class="dropdown-divider" /></li>
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+
+
+    <h1>Summer Outdoor Plants!</h1>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Campanulas
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Seasons
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Winter</a></li>
-                  <li><a class="dropdown-item" href="#">Spring</a></li>
-                  <li><a class="dropdown-item" href="#">Summer</a></li>
-                  <li><a class="dropdown-item" href="#">Fall</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  
-                </ul>
-              </li>
-              <li class="nav-item">
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Also known as "bellflowers", cambanulas are beautiful flowers that
+              are either white, pink, purple or clear blue. They are bell-shaped
+              and come in many different varietes. They can grow in full-sun or
+              light shade!
+            </p>
+           <div class="horrizontal" ><img
+              src="https://cdn.pixabay.com/photo/2020/01/10/11/18/blue-4755082_1280.jpg"> </div>
           </div>
         </div>
-      </nav>
-    <title>Document</title>
-</head>
-<body>
-<h1>Summer Outdoor Plants!</h1>
-
-</body>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+          >
+            Potentillas
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Pontetillas are orange, pink, red or white-colored flowers. They
+              need sun to grow and watering once or twice a week during extreme
+              heat. They are also known as shrubby or bush cinquefoil
+            </p>
+           <div class="katheta"> <img
+              src="https://cdn.pixabay.com/photo/2022/09/15/05/41/potentilla-7455689_640.jpg"
+            /></div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree"
+            aria-expanded="false"
+            aria-controls="flush-collapseThree"
+          >
+            Dahlias
+          </button>
+        </h2>
+        <div
+          id="flush-collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Dahlias are beautiful flowers. They can be multicolored, orange,
+              pink, purple, red, white or yellow. They need full sun and
+              watering 2 or 3 times a week.
+            </p>
+            <img
+              src="https://cdn.pixabay.com/photo/2018/08/06/11/58/dahlias-3587361_1280.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour"
+            aria-expanded="false"
+            aria-controls="flush-collapseFour"
+          >
+            Zinnias
+          </button>
+        </h2>
+        <div
+          id="flush-collapseFour"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Zinnias can be multicolored, orange, pink, purple, red, white and
+              yellow. They need full sun and and need to be watered once a week.
+            </p>
+             <img
+              src="https://cdn.pixabay.com/photo/2018/07/05/19/01/tin-3518967_1280.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive"
+            aria-expanded="false"
+            aria-controls="flush-collapseFive"
+          >
+            Hydrangeas
+          </button>
+        </h2>
+        <div
+          id="flush-collapseFive"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Hydrangeas are able to grow in any sun condition (full sun, part
+              sun or shadow).They can be blue, green, pink, purple, red or
+              white. It would be ideal to water them every morning to prevent
+              them from drying. Hydrangeas attract butterflies and will make
+              your garden even prettier!
+            </p>
+            <div class="horizontal"><img
+              src="https://cdn.pixabay.com/photo/2019/07/06/18/06/flowers-4320891_1280.jpg"
+            /></div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSix"
+            aria-expanded="false"
+            aria-controls="flush-collapseSix"
+          >
+            Iberis sempervirens
+          </button>
+        </h2>
+        <div
+          id="flush-collapseSix"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            <p>
+              They are also known as candytuft. It needs full sun to grow and it
+              must be watered often.It can be white, purple or pink.
+            </p>
+          </div>
+          <img
+            src="https://cdn.pixabay.com/photo/2021/09/19/10/53/garden-candytuft-6637600_1280.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
 </html>
-
