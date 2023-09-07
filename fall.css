@@ -9,7 +9,7 @@ body{
 
 h1{
     font-size: 70px;
-    color: rgb(255, 255, 255);
+    color: #e85d04;
     padding: 10px;
 }
 
@@ -19,11 +19,11 @@ h1{
 
 
 .container-fluid{
-   background-color: palevioletred;
+   background-color: #bbded6;
 }
 
 nav.navbar{
-    background-color: palevioletred !important;
+    background-color: #bbded6 !important;
 }
     
 h3{
