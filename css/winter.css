@@ -1,19 +1,90 @@
 * {
-    padding: 0%;
-    margin: 0%;
-    background-color:hsl(184, 19%, 54%);
-}
-
-.container-fluid{
-    background-color: rgb(183, 211, 183);
-}
-
-.navbar-brand{
-    color: palevioletred;
-}
-
-h1{
-    font-size: 70px;
-    color: rgb(91, 76, 175);
-    text-align: center;
-}
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container-fluid {
+      background-color: rgb(183, 221, 183);
+    }
+    
+    .navbar-brand {
+      color: palevioletred;
+    }
+  
+    img{
+      height: 600px;
+     }
+  
+     body {
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      text-align: center;
+    }
+  
+    h1{
+      font-size: 90px;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgb(46, 58, 221)
+    }
+  
+  
+  .button1{
+    color:black;
+    background-color: rgb(240, 190, 124);
+    height: 70px;
+    width: 150px;
+    border-color: rgb(240, 190, 124);
+    font-size: 30px;
+  }
+  
+  .button2{
+    color:black;
+    background-color: rgb(240, 190, 124);
+    height: 70px;
+    width: 150px;
+    border-color: rgb(240, 190, 124);
+    font-size: 30px;
+  }
+  
+  .button3{
+    color:black;
+    background-color: rgb(240, 190, 124);
+    height: 70px;
+    width: 150px;
+    border-color: rgb(240, 190, 124);
+    font-size: 30px;
+  }
+  
+  .button4{
+    color:black;
+    background-color: rgb(240, 190, 124);
+    height: 70px;
+    width: 150px;
+    border-color: rgb(240, 190, 124);
+    font-size: 30px;
+  }
+  
+  .collapse{
+    font-size: 20px;
+    color: black;
+  }
+  
+  .bg-pastel-purple{
+    background-color:rgb(172, 133, 209);
+  }
+  
+  .img1{
+    width: 600px;
+    height: 400px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
