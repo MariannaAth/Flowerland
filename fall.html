@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FALL</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="fall.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">FlowerLand</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Seasons
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Winter</a></li>
+                <li><a class="dropdown-item" href="#">Spring</a></li>
+                <li><a class="dropdown-item" href="#">Summer</a></li>
+                <li><a class="dropdown-item" href="#">Fall</a></li>
+                <li><hr class="dropdown-divider" /></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="bg-main">
+      <div class="container">
+        <h1>FALL PLANTS</h1>
+
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1632271141142-468a21e07404?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+                class="d-block w-100"
+                alt="chrysanthemum"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1588005791005-60f38a9e3057?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+                class="d-block w-100"
+                alt="pansy"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1601305979668-31ed49852c2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+                class="d-block w-100"
+                alt="aster"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1594676979216-380a0257305d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80"
+                class="d-block w-100"
+                alt="hydrangea"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1621555893124-ee9e674e869e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+                class="d-block w-100"
+                alt="petunia"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1601021215663-ee72b7063578?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+                class="d-block w-100"
+                alt="dahlia"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <h3>I want to know more about...</h3>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <p>CHRYSANTHEMUMS</p>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Chrysanthemums (/krɪˈsænθəməm/), sometimes called mums or
+                  chrysanths, are flowering plants of the genus Chrysanthemum in
+                  the family Asteraceae. They are native to East Asia and
+                  northeastern Europe. Most species originate from East Asia and
+                  the center of diversity is in China. Countless horticultural
+                  varieties and cultivars exist.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <p>PANSIES</p>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  The garden pansy (Viola × wittrockiana) is a type of
+                  large-flowered hybrid plant cultivated as a garden flower.It
+                  is derived by hybridization from several species in the
+                  section Melanium ("the pansies") of the genus Viola,
+                  particularly V. tricolor, a wildflower of Europe and western
+                  Asia known as heartsease.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <p>ASTERS</p>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Aster is a genus of perennial flowering plants in the family
+                  Asteraceae.It encompasses around 170 species, all but one of
+                  which are restricted to Eurasia.The name Aster comes from the
+                  Ancient Greek word ἀστήρ (astḗr), meaning "star", referring to
+                  the shape of the flower head. Many species and a variety of
+                  hybrids and varieties are popular as garden plants because of
+                  their attractive and colourful flowers. 'Aster' species are
+                  used as food plants by the larvae of a number of Lepidoptera
+                  species. Asters can grow in all hardiness zones.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfour">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsefour"
+                aria-expanded="true"
+                aria-controls="collapsefour"
+              >
+                <p>HYDRANGEAS</p>
+              </button>
+            </h2>
+            <div
+              id="collapsefour"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingfour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Hydrangea, (/haɪˈdreɪndʒiə/) commonly named the hortensia, is
+                  a genus of more than 70 species of flowering plants native to
+                  Asia and the Americas. By far the greatest species diversity
+                  is in eastern Asia, notably China, Korea, and Japan. Most are
+                  shrubs 1–3 m (3 ft 3 in – 9 ft 10 in) tall, but some are small
+                  trees, and others lianas reaching up to 30 m (100 ft) by
+                  climbing up trees. They can be either deciduous or evergreen,
+                  though the widely cultivated temperate species are all
+                  deciduous.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingfive">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsefive"
+                aria-expanded="true"
+                aria-controls="collapsefive"
+              >
+                <p>PETUNIAS</p>
+              </button>
+            </h2>
+            <div
+              id="collapsefive"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingfive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Petunia is a genus of 20 species of flowering plants of South
+                  American origin. Petunias can tolerate relatively harsh
+                  conditions and hot climates, but not frost. They need at least
+                  five hours of sunlight every day and flourish in moist soil
+                  and conditions of low atmospheric humidity. They are best
+                  grown from seed. Watering once a week should be sufficient in
+                  most regions. Hanging baskets and other containers need more
+                  frequent watering. Maximum growth occurs in late spring.
+                  Applying fertilizer monthly or weekly, depending on the
+                  variety, will help the plant grow quickly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingsix">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsesix"
+                aria-expanded="true"
+                aria-controls="collapsesix"
+              >
+                <p>DAHLIAS</p>
+              </button>
+            </h2>
+            <div
+              id="collapsesix"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingsix"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Dahlia (UK: /ˈdeɪliə/ DAY-lee-ə, US: /ˈdæljə, ˈdɑːljə,
+                  ˈdeɪljə/ DA(H)L-yə, DAYL-yə) is a genus of bushy, tuberous,
+                  herbaceous perennial plants native to Mexico and Central
+                  America. Its relatives include the sunflower, daisy,
+                  chrysanthemum, and zinnia. Flower forms are variable, with one
+                  head per stem; these can be as small as 5 cm (2 in) diameter
+                  or up to 30 cm (1 ft).The stems are leafy, ranging in height
+                  from as low as 30 cm (12 in) to more than 1.8–2.4 m (6–8 ft).
+                  The majority of species do not produce scented flowers. Like
+                  most plants that do not attract pollinating insects through
+                  scent, they are brightly colored, displaying most hues, with
+                  the exception of blue.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
