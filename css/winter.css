@@ -1,70 +1,69 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  .navbar{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  .container-fluid {
-      background-color: rgb(183, 221, 183);
-    }
-    
-    .navbar-brand {
-      color: palevioletred;
-    }
-  
-    img{
-      height: 600px;
-     }
-  
-     body {
-      color: black;
-      text-align: center;
-    }
-  
-    h1{
-      font-size: 90px;
-      color: rgb(78, 33, 129)
-    }
-  
-  
-  #button{
-    color:white;
-    background-color: rgb(78, 33, 129);
-    height: 60px;
-    width: 135px;
-    border-color: rgb(78, 33, 129);
-    font-size: 30px;
-    align-items: center;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  .pagination{
-    align-items: center;
-    justify-content: center;
-  }
-  
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  .collapse{
-    font-size: 20px;
-    color: black;
-  }
-  
-  .bg-turquise{
-    background-color:rgb(164, 199, 201);
-  }
-  
-  .pic{
-    width: 600px;
-    height: 550px;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 5%;
-    padding: 2%;
-  }
+.container-fluid {
+  background-color: #bbded6;
+}
+
+.navbar-brand {
+  color: palevioletred;
+}
+
+img {
+  height: 600px;
+}
+
+body {
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  color: rgb(78, 33, 129);
+}
+
+#button {
+  color: white;
+  background-color: rgb(78, 33, 129);
+  height: 60px;
+  width: 135px;
+  border-color: rgb(78, 33, 129);
+  font-size: 30px;
+  align-items: center;
+}
+
+.pagination {
+  align-items: center;
+  justify-content: center;
+}
+
+.collapse {
+  font-size: 20px;
+  color: black;
+}
+
+.bg-turquise {
+  background-color: rgb(164, 199, 201);
+}
+
+.pic {
+  width: 600px;
+  height: 550px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5%;
+  padding: 2%;
+}

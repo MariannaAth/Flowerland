@@ -20,10 +20,10 @@
         <div id="header" class="bg-pastel-purple">
           <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">FlowerLand</a>
+              <a class="navbar-brand" href="index.html">FlowerLand</a>
               <button
                 class="navbar-toggler"
-                type="button1"
+                type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent"
@@ -35,32 +35,47 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
                       >Home</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                  </li>
+
                   <li class="nav-item dropdown">
                     <a
                       class="nav-link dropdown-toggle"
                       href="#"
-                      role="button1"
+                      role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
                       Seasons
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">winter</a></li>
-                      <li><a class="dropdown-item" href="#">spring</a></li>
-                      <li><a class="dropdown-item" href="#">summer</a></li>
-                      <li><a class="dropdown-item" href="#">fall</a></li>
+                      <li>
+                        <a class="dropdown-item" href="winter.html">Winter</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="spring.html">Spring</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="summer.html">Summer</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="fall.html">Fall</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
                     </ul>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                  </li>
                 </ul>
-
                 <form class="d-flex" role="search">
                   <input
                     class="form-control me-2"
@@ -75,6 +90,7 @@
               </div>
             </div>
           </nav>
+
           <h1>Spring Outdoor Plants</h1>
           <!-- Carousel -->
           <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -141,25 +157,25 @@
             </button>
           </div>
 
-          <div class="accordion" id="accordionExample">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
+              <h2 class="accordion-header" id="flush-headingOne">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
                 >
                   Tulips
                 </button>
               </h2>
               <div
-                id="collapseOne"
-                class="accordion-collapse collapse show"
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample"
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   Tulips come in more colors and kinds that you can count. They
@@ -168,23 +184,23 @@
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
+              <h2 class="accordion-header" id="flush-headingTwo">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
+                  data-bs-target="#flush-collapseTwo"
                   aria-expanded="false"
-                  aria-controls="collapseTwo"
+                  aria-controls="flush-collapseTwo"
                 >
                   Daffodils
                 </button>
               </h2>
               <div
-                id="collapseFour"
-                class="accordion-collapse collapse show"
-                aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample"
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   This flower is a great perennial that is easy to grow and
@@ -193,23 +209,23 @@
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingFour">
+              <h2 class="accordion-header" id="flush-headingThree">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour"
+                  data-bs-target="#flush-collapseThree"
                   aria-expanded="false"
-                  aria-controls="collapseFour"
+                  aria-controls="flush-collapseThree"
                 >
                   Bluebell
                 </button>
               </h2>
               <div
-                id="collapseTwo"
+                id="flush-collapseThree"
                 class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   The stunning bluebell flowers range in colors from blue to
@@ -218,23 +234,23 @@
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
+              <h2 class="accordion-header" id="flush-headingFour">
                 <button
                   class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
+                  data-bs-target="#flush-collapseFour"
                   aria-expanded="false"
-                  aria-controls="collapseThree"
+                  aria-controls="flush-collapseFour"
                 >
                   Hyacinth
                 </button>
               </h2>
               <div
-                id="collapseThree"
+                id="flush-collapseFour"
                 class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
               >
                 <div class="accordion-body">
                   Hyacinths are spring-blooming parennials. They are fragrant
@@ -244,18 +260,6 @@
               </div>
             </div>
           </div>
-
-          <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-          </nav>
         </div>
       </body>
     </html>

@@ -1,39 +1,35 @@
-
 .container-fluid {
-    background-color: #bbded6;
+  background-color: #bbded6;
 }
 
 .navbar-brand {
-    color: palevioletred
+  color: palevioletred;
 }
 
 body {
-    text-align: center;
-    background-color:#feffdf
+  text-align: center;
 }
- 
+
 h1 {
-    color: #fabfa2    
+  color: #fabfa2;
 }
 
 img {
-  width:300px;
-  height:200px;
+  width: 300px;
 }
 
 .accordion-item {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .accordion-button {
-    background-color: #feffdfaf;
+  background-color: #feffdfaf;
 }
 
 .pagination {
-    align-items:center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 
 #about-header,
 #header,
@@ -104,3 +100,6 @@ label {
   background-color: #cf7979;
 }
 
+li {
+  font-size: 18px;
+}
