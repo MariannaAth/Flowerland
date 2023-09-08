@@ -42,6 +42,14 @@
   background-color:rgb(215, 178, 250);
 }
 
+.accordion-button{
+  background-color:rgb(230, 126, 224)
+}
+
+.accordion-body{
+  background-color: rgb(215, 178, 250);
+}
+
 .pagination{
   align-items: center;
   justify-content: center;
