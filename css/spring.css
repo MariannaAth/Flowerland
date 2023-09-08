@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: rgb(183, 221, 183);
+  }
+  
+  .navbar-brand {
+    color: palevioletred;
+  }
+
+  img{
+    height: 600px;
+   }
+
+   body {
+    color: black;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 90px;
+    color: rgb(250, 242, 233);
+  }
+
+
+.collapse{
+  font-size: 20px;
+  color: black;
+}
+
+.bg-pastel-purple{
+  background-color:rgb(215, 178, 250);
+}
+
+.accordion-button{
+  background-color:rgb(230, 126, 224)
+}
+
+.accordion-body{
+  background-color: rgb(215, 178, 250);
+}
+
+.pagination{
+  align-items: center;
+  justify-content: center;
+}
+
