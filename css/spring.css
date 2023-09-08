@@ -29,7 +29,7 @@
 
   h1{
     font-size: 90px;
-    color: rgb(240, 190, 124);
+    color: rgb(250, 242, 233);
   }
 
 
@@ -39,6 +39,10 @@
 }
 
 .bg-pastel-purple{
-  background-color:rgb(172, 133, 209);
+  background-color:rgb(215, 178, 250);
+}
+
+.pagination{
+  align-items: center;
 }
 
