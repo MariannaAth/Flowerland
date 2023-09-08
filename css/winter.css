@@ -42,6 +42,11 @@
     font-size: 30px;
     align-items: center;
   }
+
+  .pagination{
+    align-items: center;
+    justify-content: center;
+  }
   
 
   .collapse{
